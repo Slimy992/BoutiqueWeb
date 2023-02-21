@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+
+    .myFlex-Row{
+        @apply flex flex-row justify-between items-center;
+    }
+
+    .myFlex-Col{
+        @apply flex flex-col justify-between items-center;
+    }
+}
+
+.background-animate {
+    background-size: 400%;
+    -webkit-animation: Defiler 20s linear infinite;
+    -moz-animation: Defiler 20s linear infinite;
+    animation: Defiler 20s linear infinite;
+}
+
+@keyframes Defiler {
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.hiddenDrop {
+    transition: all 0.7s;
+    filter: blur(5px);
+    transform: translateY(-50%);
+  }
+  
+.showDrop {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+
