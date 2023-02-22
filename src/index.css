@@ -4,14 +4,28 @@
 
 @layer components{
 
-    .myFlex-Row{
+    .monFlex-Row{
         @apply flex flex-row justify-between items-center;
     }
 
-    .myFlex-Col{
+    .monFlex-Col{
         @apply flex flex-col justify-between items-center;
     }
+
+    button{
+        @apply  hover:text-zinc-800 text-gray-200 w-24 py-2 bg-zinc-800 hover:bg-gray-200 hover:shadow-lg rounded-xl;
+    }
+
+    .monSplitter{
+        @apply my-4 w-[80%] h-1 bg-purple-600 bg-gradient-to-l from-yellow-600 m-auto rounded-full;
+    }
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 .background-animate {
     background-size: 400%;

@@ -14,6 +14,7 @@ module.exports = {
       animation: {
         Rolling: 'Rolling 10s linear infinite',
         Rolling2: 'Rolling2 10s linear infinite',
+        Defiler: 'Definier 20s linear infite'
       },
       keyframes: {
         Rolling: {
