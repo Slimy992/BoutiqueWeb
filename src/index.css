@@ -17,7 +17,7 @@
     }
 
     .monSplitter{
-        @apply my-4 w-[80%] h-1 bg-purple-600 bg-gradient-to-l from-yellow-600 m-auto rounded-full;
+        @apply w-auto h-1 bg-purple-600 bg-gradient-to-l from-yellow-600 my-8 rounded-full;
     }
 }
 
